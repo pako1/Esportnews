@@ -12,7 +12,7 @@ public final class StaticClass {
     public static final String HEADLINE = "headline";
     public static final String THUMBNAIL = "thumbnail";
     public static final String TAGS = "tags";
-    public static final String WEBTITLE = "webTitle";
+    public static final String WEB_TITLE = "webTitle";
     public static final String GET_WEBSERVICE = "GET";
     public static final String JSON_DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss'Z'";
     public static final String DATE_FORMAT = "MMM d, yyy";

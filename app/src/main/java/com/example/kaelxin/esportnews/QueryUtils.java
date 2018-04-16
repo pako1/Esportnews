@@ -72,7 +72,7 @@ public final class QueryUtils {
                 } else {
                     for (int i = 0; i < tagArray.length(); i++) {
                         JSONObject tagObject = tagArray.getJSONObject(i);
-                        author.append(tagObject.getString(StaticClass.WEBTITLE));
+                        author.append(tagObject.getString(StaticClass.WEB_TITLE));
                     }
                 }
 

@@ -9,7 +9,7 @@ public class News {
     private String mUrl;
     private String section;
 
-    public News(String mThumbnail, String headLine, String mPublicationDate, String author, String mUrl, String section) {
+     News(String mThumbnail, String headLine, String mPublicationDate, String author, String mUrl, String section) {
 
         this.mThumbnail = mThumbnail;
         this.headLine = headLine;

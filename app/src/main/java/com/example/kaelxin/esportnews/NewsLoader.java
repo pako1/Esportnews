@@ -5,11 +5,11 @@ import android.content.Context;
 
 import java.util.List;
 
-public class NewsLodaer extends AsyncTaskLoader<List<News>> {
+public class NewsLoader extends AsyncTaskLoader<List<News>> {
 
     private String stringQuery;
 
-    NewsLodaer(Context context, String stringQuery) {
+    NewsLoader(Context context, String stringQuery) {
         super(context);
         this.stringQuery = stringQuery;
     }
