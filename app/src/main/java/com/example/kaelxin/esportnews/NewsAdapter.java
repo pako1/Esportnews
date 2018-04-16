@@ -12,8 +12,7 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
 import java.util.List;
 
 public class NewsAdapter extends ArrayAdapter<News> {
