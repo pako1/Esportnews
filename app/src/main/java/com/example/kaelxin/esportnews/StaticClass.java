@@ -18,6 +18,9 @@ public final class StaticClass {
     public static final String DATE_FORMAT = "MMM d, yyy";
     public static final String TAG_QUERY = "QueryUtils";
     public static final String UTF8 = "UTF-8";
+    public static final int magic_1000 = 10000;
+    public static final int magic_1500 = 15000;
+    public static final int magic_200 = 200;
 
 
 

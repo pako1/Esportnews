@@ -113,12 +113,12 @@ public final class QueryUtils {
 
         try {
             httpURLConnection = (HttpURLConnection) url.openConnection();
-            httpURLConnection.setConnectTimeout(10000);
-            httpURLConnection.setReadTimeout(15000);
+            httpURLConnection.setConnectTimeout(StaticClass.magic_1000);
+            httpURLConnection.setReadTimeout(StaticClass.magic_1500);
             httpURLConnection.setRequestMethod(StaticClass.GET_WEBSERVICE);
             httpURLConnection.connect();
 
-            if (httpURLConnection.getResponseCode() == 200) {
+            if (httpURLConnection.getResponseCode() == StaticClass.magic_200) {
                 inputStream = httpURLConnection.getInputStream();
                 JsonResponse = readFromStream(inputStream);
             } else {
