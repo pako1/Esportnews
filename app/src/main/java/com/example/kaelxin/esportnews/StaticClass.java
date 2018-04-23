@@ -1,8 +1,6 @@
 package com.example.kaelxin.esportnews;
 
 public final class StaticClass {
-
-    public static final String STRING_QUERY = "https://content.guardianapis.com/search?q=sport/esports&show-tags=contributor&show-fields=hasStoryPackage,headline,thumbnail&api-key=d2598eb2-7309-4b6f-aecc-ca94ab21ce9c";
     public static final String RESPONSE = "response";
     public static final String RESULTS = "results";
     public static final String PUBLICATION_DATE = "webPublicationDate";
@@ -21,7 +19,4 @@ public final class StaticClass {
     public static final int magic_1000 = 10000;
     public static final int magic_1500 = 15000;
     public static final int magic_200 = 200;
-
-
-
 }

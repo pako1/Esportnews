@@ -1,6 +1,36 @@
 <resources>
+
     <string name="app_name">Esport news</string>
     <string name="ImageContentDiscription">Image displaying Esport content</string>
     <string name="no_news">No News found,swipe down to refresh for new ones</string>
     <string name="no_internet">No internet available :(</string>
+    <string name="settings_label">E-sports settings</string>
+    <string name="settings_menu_item">settings</string>
+    <string name="settings_start_time_default" translatable="false">2010-01-01</string>
+    <string name="settings_start_time_key" translatable="false">from_date</string>
+    <string name="start_date">Start Date</string>
+    <string name="settings_time_default" translatable="false">2018-12-12</string>
+    <string name="settings_time_key" translatable="false">to_date</string>
+    <string name="end_date">End Date</string>
+
+    <string name="label_2011">2011</string>
+    <string name="label_2012">2012</string>
+    <string name="label_2013">2013</string>
+    <string name="label_2014">2014</string>
+    <string name="label_2015">2015</string>
+    <string name="label_2016">2016</string>
+    <string name="label_2017">2017</string>
+    <string name="label_2018">2018</string>
+    <string name="label_2019">2019</string>
+
+    <string name="value_2011">2011–01-01</string>
+    <string name="value_2012">2012-01-01</string>
+    <string name="value_2013">2013-01-01</string>
+    <string name="value_2014">2014-01-01</string>
+    <string name="value_2015">2015-01-01</string>
+    <string name="value_2016">2016-01-01</string>
+    <string name="value_2017">2017-01-01</string>
+    <string name="value_2018">2018-01-01</string>
+    <string name="value_2019">2019-01-01</string>
+
 </resources>

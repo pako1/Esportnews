@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="settings_time_labels">
+        <item>@string/label_2011</item>
+        <item>@string/label_2012</item>
+        <item>@string/label_2013</item>
+        <item>@string/label_2014</item>
+        <item>@string/label_2015</item>
+        <item>@string/label_2016</item>
+        <item>@string/label_2017</item>
+        <item>@string/label_2018</item>
+        <item>@string/label_2019</item>
+    </string-array>
+
+    <string-array name="settings_time_values">
+        <item>@string/value_2011</item>
+        <item>@string/value_2012</item>
+        <item>@string/value_2013</item>
+        <item>@string/value_2014</item>
+        <item>@string/value_2015</item>
+        <item>@string/value_2016</item>
+        <item>@string/value_2017</item>
+        <item>@string/value_2018</item>
+        <item>@string/value_2019</item>
+    </string-array>
+
+</resources>

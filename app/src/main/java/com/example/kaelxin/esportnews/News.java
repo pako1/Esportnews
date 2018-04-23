@@ -1,15 +1,15 @@
 package com.example.kaelxin.esportnews;
 
-public class News {
+class News {
 
-    private String mThumbnail;
-    private String headLine;
-    private String mPublicationDate;
-    private String author;
-    private String mUrl;
-    private String section;
+    private final String mThumbnail;
+    private final String headLine;
+    private final String mPublicationDate;
+    private final String author;
+    private final String mUrl;
+    private final String section;
 
-     News(String mThumbnail, String headLine, String mPublicationDate, String author, String mUrl, String section) {
+    News(String mThumbnail, String headLine, String mPublicationDate, String author, String mUrl, String section) {
 
         this.mThumbnail = mThumbnail;
         this.headLine = headLine;
